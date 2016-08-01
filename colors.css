@@ -1,0 +1,36 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container,
+.container > * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: stretch; /*default*/
+}
+
+.row > * {
+  flex: 1;
+}
+
+.block {
+  border: 2px solid black;
+}
+.block.left {
+  background-color: red;
+}
+.block.center {
+  background-color: green;
+}
+.block.right {
+  background-color: blue;
+}

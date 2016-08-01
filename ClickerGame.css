@@ -1,0 +1,62 @@
+.boards {
+  background-color: blue;
+  width: 190px;
+  height: 400px;
+  border: 2px solid violet;
+  margin: 5px;
+  float: left;
+  text-align: center;
+}
+#top {
+    background-color: green;
+    width: 600px;
+    height: 50px;
+    border: 2px solid violet;
+    float: top;
+    margin: 5px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+#center {
+  background-color: black;
+  border: none;
+}
+#background {
+  background-color: black;
+  width: 615px;
+  height: 480px;
+  border: 2px solid black;
+  margin: 5px;
+}
+.topText {
+  position: relative;
+  top: 30px;
+  font-size: 25px;
+  color: white;
+}
+.bottomText {
+  position: relative;
+  top: 150px;
+  font-size: 25px;
+  color: white;
+}
+
+.button {
+  background-color: gray;
+  padding: 15px 15px;
+  border-radius: 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  position: relative;
+  top: 80px;
+  cursor: pointer;
+}
+#centerButton {
+  top: 150px;
+}
+#colorButton {
+  top: 250px;
+}
